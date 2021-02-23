@@ -1,1 +1,1 @@
-**[My curriculum vitae](https://github.com/Olgamalk/rsschool-cv/blob/gh-pages/cv.md)**
+**[My curriculum vitae](https://Olgamalk.github.io/rsschool-cv/)**
