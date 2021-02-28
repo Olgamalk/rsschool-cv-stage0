@@ -1,18 +1,49 @@
+@font-face {
+    font-family: Marcellus-Regular;
+    src: url(../fonts/marcellus.ttf)
+}
+body {
+    background-image: url(../images/pattern.png);
+    background-repeat: repeat;
+    font-family: Marcellus-Regular;
+    
+}
+
 header {
+    
     text-align: center;
     width: 960px;
     margin: 0 auto;
+    
 }
+.header {
+    font-size: 24px;
+}
+h1 {
+    color: #bda896;
+    font-size: 48px;
+    font-weight: 200;
+}
+
+h2, h3 {
+    color: #856a55;
+}
+p{
+    color: #bda896;
+}
+
 
 div {
     width: 960px;
     margin: 0 auto;
+    background-color: #fefbf2;
 }
 
-img {
+soc {
+    
+}
+.avatar {
     width: 210px;
     height: 250px;
-    
-    object-fit: cover;
-    object-position: 50% 50%;
+    border: 10px solid #ded3c2;
 }
