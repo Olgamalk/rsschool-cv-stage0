@@ -8,16 +8,19 @@ body {
     font-family: Marcellus-Regular;
     
 }
-
-header {
-    
-    text-align: center;
-    width: 960px;
-    margin: 0 auto;
-    
+.container {
+    width: 1140px;
+    display: flex;
+    padding: 25px;
+    border: 10px solid white;
+    overflow:hidden;
 }
-.header {
-    font-size: 24px;
+
+header {    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
 }
 h1 {
     color: #bda896;
@@ -30,20 +33,35 @@ h2, h3 {
 }
 p{
     color: #bda896;
+    text-align: justify;
 }
+ul {
+    list-style-type: none;
+}
+
+.main {
+    width: 240px;
+    background-color: #ded3c2;
+}
+.text {
+    width: 800px;
+}
+
 
 
 div {
     width: 960px;
     margin: 0 auto;
-    background-color: #fefbf2;
+    padding: 20px;
 }
 
-soc {
-    
-}
+
 .avatar {
     width: 210px;
     height: 250px;
-    border: 10px solid #ded3c2;
+    border: 15px solid #ded3c2;
+}
+
+.position {
+
 }
