@@ -26,6 +26,8 @@ h1 {
     color: #bda896;
     font-size: 48px;
     font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h2, h3 {
@@ -37,6 +39,7 @@ p{
 }
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .main {
@@ -60,8 +63,10 @@ div {
     width: 210px;
     height: 250px;
     border: 15px solid #ded3c2;
+    display: block;
+      margin: 0 auto;
 }
 
 .position {
-
+    font-size: 24px;
 }
