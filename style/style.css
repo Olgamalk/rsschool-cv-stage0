@@ -6,7 +6,8 @@ body {
     background-image: url(../images/pattern.png);
     background-repeat: repeat;
     font-family: Marcellus-Regular;
-    font-weight: 200;    
+    font-weight: 200;
+   
 }
 .container {
     width: 1140px;
@@ -14,6 +15,7 @@ body {
     display: flex;
     padding: 25px;
     border: 10px solid white;
+    background-color: #fefbf2;  
     
 }
 
@@ -35,9 +37,20 @@ h1 {
     margin-bottom: 0;
 }
 
-h2, h3 {
+h2, h3, h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
     color: #856a55;
+    font-weight: 200;
 }
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #856a55;
+    font-weight: 200;
+}
+
 p{
     text-align: justify;
 }
@@ -45,8 +58,10 @@ ul {
     list-style-type: none;
     padding-left: 0;
 }
-
-
+ul li {
+    margin: 5px;
+    text-align: justify;
+}
 
 ul.soc li {
     display: inline;
@@ -95,6 +110,10 @@ details p {
 
 .github {
     margin-bottom: 15px;
+}
+
+.contact {
+    text-size: 0.3em;
 }
 
 .contact img{
