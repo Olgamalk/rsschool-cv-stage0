@@ -40,13 +40,13 @@ Get a job as a junior Frontend developer and help my experience and speech habit
 * Russian
 
 ## Strengths
-** Communication Skills
-** Flexibility and Adaptability
-** Quick learner
-** Team oriented
+* Communication Skills
+* Flexibility and Adaptability
+* Quick learner
+* Team oriented
 
 ## Hobbies
-** Snowbording
-** Knitting
-** Reading Books
-** Travelling
+* Snowbording
+* Knitting
+* Reading Books
+* Travelling
