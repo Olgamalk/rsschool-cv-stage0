@@ -3,7 +3,8 @@
     src: url(../fonts/marcellus.ttf)
 }
 body {
-    background-image: url(../images/pattern.png);
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+/*     background-image: url(../images/pattern.png); */
     background-repeat: repeat;
     font-family: Marcellus-Regular;
     font-weight: 200;
