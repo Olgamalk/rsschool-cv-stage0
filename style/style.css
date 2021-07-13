@@ -3,9 +3,10 @@
     src: url(../fonts/marcellus.ttf)
 }
 body {
-    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
-/*     background-image: url(../images/pattern.png); */
-    background-repeat: repeat;
+    /* background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
+    /* background-image: url(../images/background.jpg) ; */
+    background: linear-gradient(0deg, rgb(242, 216, 249), rgb(194, 244, 239), rgb(239, 246, 202));
+    /* background-repeat: repeat; */
     font-family: Marcellus-Regular;
     font-weight: 200;
    
@@ -14,10 +15,7 @@ body {
     width: 1140px;
     margin: 0 auto;
     display: flex;
-    padding: 25px;
-    border: 10px solid white;
-    background-color: #fefbf2;  
-    
+    padding: 25px; 
 }
 
 header {    
@@ -63,6 +61,12 @@ ul li {
     margin: 5px;
     text-align: justify;
 }
+.contact li {
+    width: 260px;
+    height: 38px;
+    border-radius: 5px;
+    background: rgb(179, 179, 179, 0.2);
+}
 
 ul.soc li {
     display: inline;
@@ -71,7 +75,8 @@ ul.soc li {
 
 .main {
     min-width: 300px;
-    background-color: #ded3c2;
+    background: rgb(179, 179, 179, 0.2);
+    border-radius: 10px;
 }
 .text {
     width: px;
@@ -84,9 +89,9 @@ div {
 
 
 .avatar {
-    width: 260px;
-    height: 300px;
-    border: 15px solid #ded3c2;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
     display: block;
     margin: 0 auto;
 }
