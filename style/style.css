@@ -62,7 +62,7 @@ ul li {
     border-radius: 5px;
     /* background: rgb(238, 246, 191, 0.2); */
     background: rgb(196, 196, 196, 0.35);
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
 }
 
 ul.soc li {
@@ -86,7 +86,7 @@ svg {
     width: 298px;
     /* background: rgb(241, 196, 242, 0.2); */
     background: rgb(196, 196, 196, 0.35);
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
     border-radius: 10px;
 
 }
