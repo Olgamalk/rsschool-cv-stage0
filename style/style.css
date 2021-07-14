@@ -52,7 +52,7 @@ ul {
     padding-left: 0;
 }
 ul li {
-    margin: 5px;
+    margin: 10px;
     text-align: justify;
 }
 .contact li {
@@ -60,7 +60,6 @@ ul li {
     width: 298px;
     height: 38px;
     border-radius: 5px;
-    /* background: rgb(238, 246, 191, 0.2); */
     background: rgb(196, 196, 196, 0.35);
     /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
 }
@@ -81,14 +80,19 @@ svg {
     fill:#808080;
 }
 
-.skills {
+.skills,
+.language,
+.hobbies {
     margin-left: 5px;
     width: 298px;
-    /* background: rgb(241, 196, 242, 0.2); */
     background: rgb(196, 196, 196, 0.35);
-    /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
     border-radius: 10px;
 
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
 .text {
     background: rgba(255,255,255, 0.7);
@@ -101,7 +105,9 @@ svg {
     display: block;
     width: 154px;
     height: 24px;
+    border-radius: 5px;
     background: rgba(34 60 80 / 20%);
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -150,45 +156,100 @@ details p {
 
 .circle-skills {
     position: relative;
+    padding: 0;
 }
   
 .circle-skills svg {
+    position: relative;
     width: 90px;
     height: 90px;
 }
   
 .circle-skills .bg {
     fill: none;
-    stroke-width: 7px;
+    stroke-width: 5px;
     stroke: rgb(34 60 80 / 20%);
 }  
 .circle-skills .progress {
     fill: none;
-    stroke-width: 7px;
-    stroke: #e0caeb;
+    stroke-width: 5px;
+    stroke: rgb(233, 153, 233);
     stroke-linecap: round;
-    stroke-dasharray: 200;
-    stroke-dashoffset: 60;
+    
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
     animation: big 1.5s ease-in-out;
 }
+
+.circle-skills .html,
+.circle-skills .css {
+    stroke-dasharray: 200;
+    stroke-dashoffset: 40;
+}
+
+.circle-skills .javascript,
+.circle-skills .typescript,
+.circle-skills .sass {
+    stroke-dasharray: 200;
+    stroke-dashoffset: 100;
+}
+.circle-skills .webpack,
+.circle-skills .git,
+.circle-skills .figma,
+.circle-skills .photoshop {
+    stroke-dasharray: 200;
+    stroke-dashoffset: 140;
+}
+
 .circle-skills .item {
     position: absolute;
-    top: 40px;
-    left: 40px;
-    width: 11px;
-    height: 11px;
+    top: 19px;
+    left: 20px;
+    width: 51px;
+    height: 51px;
     border-radius: 30px;
     background-color: white;
+    padding: 0;
 }
 .circle-skills .item img {
     position: absolute;
-    top: 12px;
-    right: 13px;
+    top: 11px;
+    right: 11px;
 }
 
+.html img {
+    top: 12px;
+    right: 15px;
+}
 
-  
+.circle-skills h3 {
+    text-align: center;
+}
+
+progress {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    margin-top: 10px;
+    background: #eee;
+    border: 0;
+    width: 80%;
+    height: 10px;
+    border-radius: 9px;
+    color: #9c3;
+}
+progress::-webkit-progress-bar {
+    background: #eeeeee;
+    border-radius: 9px;
+}
+progress::-webkit-progress-value {
+    background: linear-gradient(to bottom, #cf9 0%, #9c3 100%);
+    border-radius: 9px;
+}
+progress::-moz-progress-bar {
+    background: linear-gradient(to bottom, #cf9 0%, #9c3 100%);
+    border-radius: 9px;
+}  
 
   
