@@ -70,6 +70,10 @@ ul li {
     background: rgb(196, 196, 196, 0.35);
     /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
 }
+
+.contact svg {
+    margin-right: 5px;
+}
 ul.soc li {
     display: inline;
     padding: 3px;
@@ -98,10 +102,37 @@ svg {
     border-radius: 10px;
 
 }
+.skills,
+.language {
+    margin-bottom: 25px;
+}
+.skills h2,
+.language h2,
+.hobbies h2 {
+    margin-left: 13px;
+}
+.skills p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
 .skills-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 0;
+    margin-bottom: 20px;
+}
+
+.hobby-list li {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    align-items: center;
+}
+
+.hobby-list img {
+    margin-right: 5px;
 }
 .text {
     background: rgba(255,255,255, 0.7);
