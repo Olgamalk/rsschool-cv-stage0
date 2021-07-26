@@ -124,6 +124,11 @@ svg {
     margin-bottom: 20px;
 }
 
+.skills-item {
+    display: flex;
+}
+
+
 .hobby-list li {
     display: flex;
     flex-direction: row;
@@ -194,7 +199,7 @@ details p {
 
 
 
-.circle-skills {
+/* .circle-skills {
     position: relative;
     padding: 0;
 }
@@ -264,6 +269,12 @@ details p {
 
 .circle-skills h3 {
     text-align: center;
+} */
+
+.html progress,
+.css progress,
+.sass progress {
+    background: rgb(241, 196, 242);
 }
 
 progress {
@@ -274,22 +285,64 @@ progress {
     margin-top: 10px;
     background: #eee;
     border: 0;
-    width: 80%;
+    width: 98%;
     height: 10px;
     border-radius: 9px;
     color: #9c3;
 }
+.language-list progress::-webkit-progress-bar {
+    background: #eeeeee;
+    border-radius: 9px;
+}
+.language-list progress::-webkit-progress-value {
+    background: linear-gradient(to bottom, rgb(206, 243, 203) 0%, rgb(131, 247, 131) 100%);
+    border-radius: 9px;
+}
+.language-list progress::-moz-progress-bar {
+    background: linear-gradient(to bottom, rgb(206, 243, 203) 0%, rgb(131, 247, 131) 100%);
+    border-radius: 9px;
+}  
+
 progress::-webkit-progress-bar {
     background: #eeeeee;
     border-radius: 9px;
 }
-progress::-webkit-progress-value {
-    background: linear-gradient(to bottom, #cf9 0%, #9c3 100%);
+.html progress::-webkit-progress-value,
+.css progress::-webkit-progress-value,
+.sass progress::-webkit-progress-value {
+    background: linear-gradient(to bottom, rgb(245, 240, 243) 0%, rgb(240, 165, 224) 100%);
     border-radius: 9px;
 }
-progress::-moz-progress-bar {
-    background: linear-gradient(to bottom, #cf9 0%, #9c3 100%);
+.html progress::-moz-progress-bar,
+.css progress::-moz-progress-bar,
+.sass progress::-moz-progress-bar {
+    background: linear-gradient(to bottom, rgb(245, 240, 243) 0%, rgb(240, 165, 224) 100%);
     border-radius: 9px;
-}  
+}
 
+.javascript progress::-webkit-progress-value,
+.typescript progress::-webkit-progress-value,
+.git progress::-webkit-progress-value {
+    background: linear-gradient(to bottom, rgb(210, 222, 240) 0%, rgb(134, 202, 248) 100%);
+    border-radius: 9px;
+}
+.javascript progress::-moz-progress-bar,
+.typescript progress::-moz-progress-bar,
+.git progress::-moz-progress-bar {
+    background: linear-gradient(to bottom, rgb(210, 222, 240) 0%, rgb(134, 202, 248) 100%);
+    border-radius: 9px;
+}
+
+.webpack progress::-webkit-progress-value,
+.figma progress::-webkit-progress-value,
+.photoshop progress::-webkit-progress-value {
+    background: linear-gradient(to bottom, rgb(243, 247, 230) 0%, rgb(223, 248, 130) 100%);
+    border-radius: 9px;
+}
+.webpack progress::-moz-progress-bar,
+.figma progress::-moz-progress-bar,
+.photoshop progress::-moz-progress-bar {
+    background: linear-gradient(to bottom, rgb(243, 247, 230) 0%, rgb(223, 248, 130) 100%);
+    border-radius: 9px;
+}
   
