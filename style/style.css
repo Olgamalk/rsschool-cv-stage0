@@ -68,7 +68,6 @@ ul li {
     margin-left: 0;
     border-radius: 5px;
     background: rgb(196, 196, 196, 0.35);
-    /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
 }
 
 .contact svg {
@@ -85,7 +84,6 @@ ul.soc li {
     align-items: center;
     min-width: 300px;
     background: rgb(196, 196, 196, 0.3);
-    /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
     border-radius: 10px;
 }
 
@@ -123,19 +121,15 @@ svg {
     padding: 0;
     margin-bottom: 20px;
 }
-
 .skills-item {
     display: flex;
 }
-
-
 .hobby-list li {
     display: flex;
     flex-direction: row;
     vertical-align: top;
     align-items: center;
 }
-
 .hobby-list img {
     margin-right: 5px;
 }
@@ -145,7 +139,6 @@ svg {
     border-radius: 5px;
     margin-left: 10px;
 }
-
 .text section h2 {
     display: block;
     width: 206px;
@@ -155,12 +148,9 @@ svg {
     padding-top: 10px;
     text-align: center;
 }
-
 div {
     padding: 20px;
 }
-
-
 .avatar {
     width: 160px;
     height: 160px;
@@ -168,10 +158,6 @@ div {
     display: block;
     margin: 0 auto;
 }
-.avatar:hover {
-    transform: scale(1.5);
-}
-
 .position {
     font-size: 20px;
     margin-top: 0;
@@ -196,81 +182,6 @@ details p {
 .contact img{
     vertical-align: middle;
 }
-
-
-
-/* .circle-skills {
-    position: relative;
-    padding: 0;
-}
-  
-.circle-skills svg {
-    position: relative;
-    width: 90px;
-    height: 90px;
-}
-  
-.circle-skills .bg {
-    fill: none;
-    stroke-width: 5px;
-    stroke: rgb(34 60 80 / 20%);
-}  
-.circle-skills .progress {
-    fill: none;
-    stroke-width: 5px;
-    stroke: rgb(233, 153, 233);
-    stroke-linecap: round;
-    
-    transform: rotate(-90deg);
-    transform-origin: 50% 50%;
-    animation: big 1.5s ease-in-out;
-}
-
-.circle-skills .html,
-.circle-skills .css {
-    stroke-dasharray: 200;
-    stroke-dashoffset: 40;
-}
-
-.circle-skills .javascript,
-.circle-skills .typescript,
-.circle-skills .sass {
-    stroke-dasharray: 200;
-    stroke-dashoffset: 100;
-}
-.circle-skills .webpack,
-.circle-skills .git,
-.circle-skills .figma,
-.circle-skills .photoshop {
-    stroke-dasharray: 200;
-    stroke-dashoffset: 140;
-}
-
-.circle-skills .item {
-    position: absolute;
-    top: 19px;
-    left: 20px;
-    width: 51px;
-    height: 51px;
-    border-radius: 30px;
-    background-color: white;
-    padding: 0;
-}
-.circle-skills .item img {
-    position: absolute;
-    top: 11px;
-    right: 11px;
-}
-
-.html img {
-    top: 12px;
-    right: 15px;
-}
-
-.circle-skills h3 {
-    text-align: center;
-} */
-
 .html progress,
 .css progress,
 .sass progress {
